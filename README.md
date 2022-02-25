@@ -1,2 +1,2 @@
-# opencv_play_video
-Simple program that reproduce video files
+# Play Video File (with opencv)
+Simple program that reproduce video files.
