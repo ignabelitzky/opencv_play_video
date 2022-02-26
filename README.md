@@ -3,7 +3,7 @@ Simple program that reproduce video files.
 
 ## To compile in Linux
 ```console
-g++ -o player main.cpp \`pkg-config --cflags --libs opencv\`
+g++ -o player main.cpp `pkg-config --cflags --libs opencv`
 ```
 
 ## To execute
