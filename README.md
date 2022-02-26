@@ -11,18 +11,21 @@ g++ -o player main.cpp \`pkg-config --cflags --libs opencv\`
 ./player video_example.avi
 ```
 
-## How to install opencv
-to build the libraries and demos, you'll need GTK+ 2.x or higher, including headers.  
+## How to install OpenCV (extracted from the book Learning OpenCV)
+If your distribution doesn't offer OpenCV, you will have to build it from sources. You can start at  
+https://opencv.org/releases, where you can select the files for the current OpenCV source code bundle.  
+
+To build the libraries and demos, you'll need GTK+ 2.x or higher, including headers.  
 You'll also need gcc and the essential development packages, cmake and libtbb (Intel thread building blocks), and  
-optionally zlib, libpng, libjpeg, libtiff, and libjasper with development files (i.r, the versions with -dev at the  
+optionally zlib, libpng, libjpeg, libtiff, and libjasper with development files (i.e., the versions with -dev at the  
 end of their package names).  
 
-You'll need Python 2.6 or later with heades installed (developer package), as well as NumPy in order to make Python  
+You'll need Python 2.6 or later with headers installed (developer package), as well as NumPy in order to make Python  
 bindings work. You will also need libavcodec and the other libav* libraries (including headers) from ffmpeg.  
 
-For the latter, install libav/ffmpeg packages supplied wih your distribution or download ffmpeg from http://www.ffmpeg.org.  
+For the latter, install libav/ffmpeg packages supplied with your distribution or download ffmpeg from http://www.ffmpeg.org.  
 
-To actually build the library, you will need to unpack the .zip file and go into the created source directory, and do  
+To actually build the library, you will need to unpack the ZIP file and go into the created source directory, and do  
 the following:
 
 ```console
