@@ -1,5 +1,8 @@
 # Play Video File (with opencv)
-Simple program that reproduce video files.
+Simple program that reproduce video files.  
+The source code was extracted from the book  
+"Learning OpenCV 3 - Computer vision in C++ with the opencv library"
+by Adrian Kaehler & Gary Bradski
 
 ## To compile in Linux
 ```console
